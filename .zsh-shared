@@ -1,0 +1,11 @@
+#Aliases
+alias ls='ls -AF'
+alias df='df -h'
+alias cd..='cd ..'
+alias cls='clear'
+alias sublime='subl'
+alias stop='kill -TSTP'
+alias tmux='TERM=screen-256color-bce tmux'
+
+#Maintain a long History
+export HISTSIZE=1000 SAVEHIST=1000 HISTFILE=~/.zhistory
